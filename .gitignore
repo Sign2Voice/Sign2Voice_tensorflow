@@ -8,9 +8,10 @@ slr_tf_rtod/tensorflow/workspace/models/my_ssd_mobnet
 slr_tf_rtod/tensorflow/workspace/images/train/*
 slr_tf_rtod/tensorflow/workspace/images/test/*
 # But do not ignore .gitkeep files in these folders
-!tensorflow/workspace/images/train/.gitkeep
-!tensorflow/workspace/images/test/.gitkeep
-!tensorflow/workspace/images/collectedimages/.gitkeep
+!slr_tf_rtod/tensorflow/workspace/images/train/.gitkeep
+!slr_tf_rtod/tensorflow/workspace/images/test/.gitkeep
+!slr_tf_rtod/tensorflow/workspace/images/collectedimages/.gitkeep
+!slr_tf_rtod/tensorflow/workspace/annotations/.gitkeep
 # Ignore the .venv folder
 .venv/
 
