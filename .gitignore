@@ -1,8 +1,8 @@
 # slr_tf_trod - Ignore the following folders
 slr_tf_rtod/tensorflow/models/
 slr_tf_rtod/tensorflow/workspace/annotations/* 
-# slr_tf_rtod/tensorflow/workspace/images/collectedimages/
-slr_tf_rtod/tensorflow/workspace/images/*
+slr_tf_rtod/tensorflow/workspace/images/collectedimages/
+# slr_tf_rtod/tensorflow/workspace/images/*
 slr_tf_rtod/tensorflow/workspace/models/my_ssd_mobnet
 # Ignore everything in the train and test folders
 slr_tf_rtod/tensorflow/workspace/images/train/*
