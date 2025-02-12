@@ -1,16 +1,16 @@
 # slr_tf_trod - Ignore the following folders
 slr_tf_rtod/tensorflow/models/
 slr_tf_rtod/tensorflow/workspace/annotations/* 
-slr_tf_rtod/tensorflow/workspace/images/collectedimages/
-slr_tf_rtod/tensorflow/workspace/images/
+# slr_tf_rtod/tensorflow/workspace/images/collectedimages/
+slr_tf_rtod/tensorflow/workspace/images/*
 slr_tf_rtod/tensorflow/workspace/models/my_ssd_mobnet
 # Ignore everything in the train and test folders
 slr_tf_rtod/tensorflow/workspace/images/train/*
 slr_tf_rtod/tensorflow/workspace/images/test/*
 # But do not ignore .gitkeep files in these folders
+!slr_tf_rtod/tensorflow/workspace/images/.gitkeep
 !slr_tf_rtod/tensorflow/workspace/images/train/.gitkeep
 !slr_tf_rtod/tensorflow/workspace/images/test/.gitkeep
-!slr_tf_rtod/tensorflow/workspace/images/collectedimages/.gitkeep
 !slr_tf_rtod/tensorflow/workspace/annotations/.gitkeep
 # Ignore the .venv folder
 .venv/
