@@ -2,7 +2,7 @@
 opencv-python
 labelimg
 pandas
-protobuf==5.29.3 # if not feasible, set to ==3.20.3
+protobuf==3.20.3 # needs to be updated to ==5.29.3 at later stage
 cython
 tensorflow==2.13 
 tensorflow-estimator==2.13
