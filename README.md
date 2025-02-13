@@ -4,7 +4,7 @@ sign2voice is a is a team effort of Vanessa Tuerker, Bejamin Gramms, Felix Sattt
 
 Furhter info can be found in _sign2voice.pdf_. 
 
-A demo video of the streamlit app with the tensorflow model _sign2voice_tensorflow_demo.mov_ is also attached.  
+A **demo video of the streamlit app** with the tensorflow model _sign2voice_tensorflow_demo.mov_ is also attached.  
 
 Find an outline of the model architecture below
 
@@ -65,12 +65,9 @@ _For details how the repo works or how to run this model on its own check out th
 
  - [ ] **streamlit cloud - build ready to use web/ mobile app**
  - [ ] real time object detection - switch real time object detection to pytorch as tensorflow object detection is deprecated
-- vocabulary - train comprehensive model to imrpvoe generalzability & accuracy
+- [ ] vocabulary - train comprehensive model to imrpvoe generalzability & accuracy
  - [ ] TTS - evaluate free alternatives to openai
 
 # NEXT STEPS
 
-- [ ] finalze repo
-  - [ ] **delete maximilianbenjaminscheel organization**
-  - [ ] check/ update gitignore files (exclude .bin g2t provided by author & credentials open ai)
-  - [ ] update g2t & ttts readme.md Vanessa & Olli (requested in SLACK)git 
+- [ ] update g2t & ttts readme.md Vanessa & Olli (requested in SLACK)git 
