@@ -49,7 +49,7 @@ multiprocess
 narwhals
 networkx
 numpy>=1.22,<1.25
-openai==1.61.1 # if feasible, otherwise remove version requirement
+openai
 packaging
 pandas
 peft
@@ -58,7 +58,7 @@ pillow
 pkgutil_resolve_name
 portalocker
 propcache
-protobuf==5.29.3 # if feasible, otherwise remove version requirement
+protobuf==3.20.3
 psutil
 pyarrow
 PyAudio
@@ -94,7 +94,7 @@ torch-lr-finder
 tornado
 tqdm
 transformers
-typing-extensions==4.12.2 # if feasible, previously set to <4.6.0,>=3.6.6
+typing-extensions<4.6.0,>=3.6.6
 tzdata
 urllib3
 watchdog
